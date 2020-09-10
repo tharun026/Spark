@@ -1,7 +1,14 @@
 Innova Solutions:
 
 1. Lineage Graph vs DAG in Spark
+RDD Lineage is for a single RDD on how it will be transformed from source to destination. 
+DAG is a culmination of RDD's and the actions that will be performed on them
+
 2. Spline in Spark
+
 3. RDD vs DataFrame vs Dataset
+
 4. Parameters for spark submit
+executorMemory, driverMemory, executor cores, broadcast threshold, 
+
 5. How Spark works internally
