@@ -16,6 +16,7 @@ executorMemory, driverMemory, executor cores, broadcast threshold,
 Purchasing Power:
 
 1. Datalake vs Datawarehouse vs Datamart
+2. Slowly Changing Dimension
 2. Star vs Snowflake schema
 In the center is a fact table surrounded by a lot of dimension tables. Dimension tables are not normalized.
 Ex: Dimension table patients will have physical address, city, state name and country columns
