@@ -17,12 +17,12 @@ Purchasing Power:
 
 1. Datalake vs Datawarehouse vs Datamart
 2. Slowly Changing Dimension
-2. Star vs Snowflake schema
+3. Star vs Snowflake schema
 In the center is a fact table surrounded by a lot of dimension tables. Dimension tables are not normalized.
 Ex: Dimension table patients will have physical address, city, state name and country columns
 Snowflake is an extension of Star schema, where Dimension tables are normalized.
 Ex: Dimension table patients will have only zip code. We will have another table from which we can calculate the address.
-3. Functional Programming
+4. Functional Programming
 Declarative type of programming. It's main focus is on what to solve instead of how to solve
 Pure functions - functions with no side effects
 Avoiding mutable data
