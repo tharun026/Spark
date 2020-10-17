@@ -28,3 +28,12 @@ Pure functions - functions with no side effects
 Avoiding mutable data
 Recursion
 Functions are first class and can be of higher order
+
+L&T
+1. Traits in scala
+2. Monads in scala
+3. auxillary constructors in scala
+4. Higher Order Functions
+5. var val
+6. Accumulators in Spark
+7. How to connect to RDBMS database in spark
