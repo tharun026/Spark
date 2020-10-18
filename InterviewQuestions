@@ -33,7 +33,8 @@ L&T
 1. Traits in scala
 2. Monads in scala
 3. auxillary constructors in scala
+Used for construcotr overloading. https://www.geeksforgeeks.org/scala-auxiliary-constructor/
 4. Higher Order Functions
-5. var val
+5. var val - var variable, mutable. val, immutable
 6. Accumulators in Spark
 7. How to connect to RDBMS database in spark
