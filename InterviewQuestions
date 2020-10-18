@@ -38,3 +38,4 @@ Used for construcotr overloading. https://www.geeksforgeeks.org/scala-auxiliary-
 5. var val - var variable, mutable. val, immutable
 6. Accumulators in Spark
 7. How to connect to RDBMS database in spark
+8. case classes vs struct type
