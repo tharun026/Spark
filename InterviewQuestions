@@ -39,3 +39,5 @@ Used for construcotr overloading. https://www.geeksforgeeks.org/scala-auxiliary-
 6. Accumulators in Spark
 7. How to connect to RDBMS database in spark
 8. case classes vs struct type
+9. descructor in scala
+10. tertiary constructor
