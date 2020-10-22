@@ -40,4 +40,12 @@ Used for construcotr overloading. https://www.geeksforgeeks.org/scala-auxiliary-
 7. How to connect to RDBMS database in spark
 8. case classes vs struct type
 9. descructor in scala
-10. tertiary constructor
+
+Paypal
+1. list of 1 to 100 is stored in 4 partitions. if we coalesce it to 2 partitions, how will the data be stored, equally or inequally?
+2. read csv file and split words based on a delimiter and look for a particular word and save it down as csv again
+3. what is hive metastore
+4. what happens when you do msck repair table
+
+
+
