@@ -17,6 +17,7 @@ executorMemory, driverMemory, executor cores, broadcast threshold,
 8. rdd functions
 9. jfrog
 10. scheduling jobs in aws
+11. udfs in spark
 
 Purchasing Power:
 
