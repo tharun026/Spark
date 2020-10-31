@@ -18,6 +18,7 @@ executorMemory, driverMemory, executor cores, broadcast threshold,
 9. jfrog
 10. scheduling jobs in aws
 11. udfs in spark
+12. overview of build tool. sbt or maven
 
 Purchasing Power:
 
