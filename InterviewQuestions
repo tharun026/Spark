@@ -12,7 +12,27 @@ DAG is a culmination of RDD's and the actions that will be performed on them
 executorMemory, driverMemory, executor cores, broadcast threshold, 
 
 5. How Spark works internally
-6. struct type
+6. struct type - collection of struct fields. 
+used to define the schema of a dataframe.
+val schema = StructType(Seq(
+    StructField("field1",StringType,true),
+    StructField("field2",StringType,true)))
+val data = Seq(
+    Row("abc","def"),
+    Row("ghi","jkl"))
+val df = spark.createDataFrame(spark.sparkContext.parallelize(data),schema)
+This also provides us the option to define nested structures.
+val schema = new StructType()
+  .add("name", new StructType()
+    .add("firstName", StringType)
+    .add("lastName", StringType))
+  .add("id", IntegerType)
+This will create the name column as a list with values.
+Ex:
+name            | id
+[tharun,kumar]  | 1
+[x,y]           | 2
+
 7. steps in EMR
 8. rdd functions
 9. jfrog
