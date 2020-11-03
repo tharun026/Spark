@@ -34,6 +34,7 @@ name            | id
 [x,y]           | 2
 
 7. steps in EMR
+option to submit spark jobs from EMR console.
 8. rdd functions
 9. jfrog
 10. scheduling jobs in aws
