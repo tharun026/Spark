@@ -79,4 +79,9 @@ spark.read.csv(path)
 4. what happens when you do msck repair table
 loses the partition details stored in metastore and regenerates the partition list for the metastore
 
+IDP
+1. Microservices in AWS
+2. SQS, SNS, API Gateway, Lambda
+3. how to automate pipeline, using full file or triggers
+
 
