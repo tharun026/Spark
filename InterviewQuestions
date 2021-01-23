@@ -84,4 +84,18 @@ IDP
 2. SQS, SNS, API Gateway, Lambda
 3. how to automate pipeline, using full file or triggers
 
+TCS
+1. Scala
+a. Referential Integrity
+b. Monad
+c. Reverse a string without recursion or reverse function
+d. pure function
+e. higher order functions
+f. currying
+
+2. Spark
+a. Lead and lag in Spark SQL syntax
+b. over in window syntax
+
+
 
