@@ -97,5 +97,11 @@ f. currying
 a. Lead and lag in Spark SQL syntax
 b. over in window syntax
 
+Aruba
+1. Write testcase in Python or Scala without using any library
+2. Create class for 3 tables with entity relationship using OOPS in any language.
+3. Create a REST API with CRUD (create, read, update, delete) to access these tables
+
+
 
 
