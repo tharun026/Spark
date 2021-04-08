@@ -75,6 +75,11 @@ Data will be distributed equally during coalesce. Repartition creates unequal si
 2. read csv file and split words based on a delimiter and look for a particular word and save it down as csv again
 spark.read.csv(path)
 
+val a = sc.textfile(path)
+a.flatMap(line => line.split(" "))
+    .map(word => (word, 1))
+    .reduceByKey(_ + _)
+
 3. what is hive metastore
 4. what happens when you do msck repair table
 loses the partition details stored in metastore and regenerates the partition list for the metastore
