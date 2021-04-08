@@ -71,7 +71,7 @@ Used for construcotr overloading. https://www.geeksforgeeks.org/scala-auxiliary-
 
 Paypal
 1. list of 1 to 100 is stored in 4 partitions. if we coalesce it to 2 partitions, how will the data be stored, equally or inequally?
-Data will be distributed inequally during coalesce. Repartition creates equal sized partitions.
+Data will be distributed equally during coalesce. Repartition creates unequal sized partitions.
 2. read csv file and split words based on a delimiter and look for a particular word and save it down as csv again
 spark.read.csv(path)
 
