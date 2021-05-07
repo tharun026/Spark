@@ -113,6 +113,9 @@ Aruba
 8. how to design youtube live
 9. 
 
-
+EY
+1. Why not Spark 3.0
+2. RDD vs DataFrame
+3. seqA has 25 columns, df has 40 columns. How to identify each column in seqA exists in df.
 
 
