@@ -40,7 +40,7 @@ option to submit spark jobs from EMR console.
 10. scheduling jobs in aws
 11. udfs in spark
 12. overview of build tool. sbt or maven
-
+----------------------
 Purchasing Power:
 
 1. Datalake vs Datawarehouse vs Datamart
@@ -56,7 +56,7 @@ Pure functions - functions with no side effects
 Avoiding mutable data
 Recursion
 Functions are first class and can be of higher order
-
+------------------------
 L&T
 1. Traits in scala
 2. Monads in scala
@@ -68,7 +68,7 @@ Used for construcotr overloading. https://www.geeksforgeeks.org/scala-auxiliary-
 7. How to connect to RDBMS database in spark
 8. case classes vs struct type
 9. descructor in scala
-
+-----------------------
 Paypal
 1. list of 1 to 100 is stored in 4 partitions. if we coalesce it to 2 partitions, how will the data be stored, equally or inequally?
 Data will be distributed equally during coalesce. Repartition creates unequal sized partitions.
@@ -83,12 +83,12 @@ a.flatMap(line => line.split(" "))
 3. what is hive metastore
 4. what happens when you do msck repair table
 loses the partition details stored in metastore and regenerates the partition list for the metastore
-
+----------------------
 IDP
 1. Microservices in AWS
 2. SQS, SNS, API Gateway, Lambda
 3. how to automate pipeline, using full file or triggers
-
+-----------------------
 TCS
 1. Scala
 a. Referential Integrity
@@ -101,7 +101,7 @@ f. currying
 2. Spark
 a. Lead and lag in Spark SQL syntax
 b. over in window syntax
-
+-------------------------
 Aruba
 1. Write testcase in Python or Scala without using any library
 2. Create class for 3 tables with entity relationship using OOPS in any language.
@@ -112,12 +112,12 @@ Aruba
 7. convert roman number to integers
 8. how to design youtube live
 9. 
-
+------------------------
 EY
 1. Why not Spark 3.0
 2. RDD vs DataFrame
 3. seqA has 25 columns, df has 40 columns. How to identify each column in seqA exists in df.
-
+-------------------------
 BAHWAN CYBER TEK
 
 Given two strings s and t, return the minimum window in s which will contain all the characters in t. If there is no such window in s that covers all characters in t, return the empty string "".
@@ -130,4 +130,16 @@ Output: "BANC"
 Example 2:
 Input: s = "a", t = "a"
 Output: "a"
+-------------------------
+CredAvenue
+Given an array of integers, write a function that returns true if there is a triplet (a, b, c) that satisfies a2 + b2 = c2.
+
+Example: 
+
+Input: arr[] = {3, 1, 4, 6, 5} 
+Output: True 
+There is a Pythagorean triplet (3, 4, 5).
+Input: arr[] = {10, 4, 6, 12, 5} 
+Output: False 
+There is no Pythagorean triplet. 
 
